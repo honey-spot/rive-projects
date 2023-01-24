@@ -23,7 +23,7 @@ export default function Home() {
           <h1 className={`text-5xl text-white font-bold ${permanent_Marker.className}`}>
             Rive Projects!
           </h1>
-          <div className='pt-20'>
+          <div className='py-20'>
             <Projects />
           </div>
         </div>
