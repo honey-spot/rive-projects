@@ -18,7 +18,7 @@ export default function Bouncing_Ball() {
     });
 
     return (
-        <div className='w-[250px] h-[500px] text-left'>
+        <div className='w-[250px] h-[500px] text-left pb-10'>
             <RiveComponent  />
             <p className={`text-lg font-bold text-white pt-2 ${permanent_Marker}` }>Cricket Ball Bouncing and Rotating</p>
         </div>
