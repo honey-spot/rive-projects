@@ -18,8 +18,10 @@ export default function Bouncing_Ball() {
     });
 
     return (
-        <div className='w-[250px] h-[500px] text-left'>
-            <RiveComponent  />
+        <div className='flex flex-col justify-between w-[250px] h-[500px] text-left'>
+            <RiveComponent 
+            className='w-[250px] h-[500px]'
+            />
             <p className={`text-lg font-bold text-white pt-2 ${permanent_Marker}` }>Cricket Ball Bouncing and Rotating</p>
         </div>
     )
