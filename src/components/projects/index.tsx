@@ -2,6 +2,7 @@ import React from 'react'
 import Bouncing_Ball from './bouncing_ball'
 import Hamburger from './hamburger'
 import Hoomans_Logo from './hoomans_logo'
+import KunaionTargetRatings from './kunai_on_target_ratings'
 import Rating_Animation from './rating_animation'
 
 export default function Projects() {
@@ -11,6 +12,7 @@ export default function Projects() {
       <Hamburger />
       <Hoomans_Logo />
       <Rating_Animation />
+      <KunaionTargetRatings />
     </div>
   )
 }
