@@ -4,6 +4,7 @@ import Hamburger from './hamburger'
 import Hoomans_Logo from './hoomans_logo'
 import Hoomans_Logo1 from './hoomans_logo1'
 import KunaionTargetRatings from './kunai_on_target_ratings'
+import Owl from './owl'
 import Rating_Animation from './rating_animation'
 
 export default function Projects() {
@@ -14,7 +15,10 @@ export default function Projects() {
       <Hoomans_Logo />
       <Rating_Animation />
       <KunaionTargetRatings />
-      <Hoomans_Logo1 />
+      <div>
+        <Hoomans_Logo1 />
+        <Owl />
+      </div>
     </div>
   )
 }
